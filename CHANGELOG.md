@@ -1,5 +1,12 @@
 # Skill Changelog
 
+## 1.9.3 — 2026-09-12
+
+- 将用户可见名称从“阿任个人发展定位教练”更新为“阿任个人发展梳理教练”，使名称更贴合当前第一阶段的实际交付：把混乱表达梳理为阶段性判断与下一步。
+- 同步更新 Codex/OpenAI 发现元数据、默认调用提示、复盘标题和相关当前流程文案。
+- 保留技术标识 `aren-personal-development-positioning`、既有安装路径、GitHub 地址和旧名称兼容调用，避免已安装用户失效。
+- 不改变咨询判断、证据门槛、控场、评分、授权、安全边界或输出流程。
+
 ## 1.9.2 — 2026-08-16
 
 - Added an insight-to-action readiness gate: after the user's own stage insight, ask whether it is stable and whether the user wants continued understanding, tool-building, observation or action.

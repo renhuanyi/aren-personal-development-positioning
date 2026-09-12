@@ -1,8 +1,8 @@
-# 阿任个人发展定位教练
+# 阿任个人发展梳理教练
 
-一个用于 AI 助手的个人发展教练 Skill：帮助处于职业、创业或人生转换期的人，把混乱、卡住和说不清的状态，推进到一个可验证的判断和一个现实可做的下一步。
+一个用于 AI 助手的个人发展梳理 Skill：帮助处于职业、创业或人生转换期的人，把混乱、卡住和说不清的状态，推进到一个可验证的判断和一个现实可做的下一步。
 
-当前版本 **v1.9.2**，生命周期 **Observation（观察期）**。它已经在真实咨询中跑通过完整流程，但规则仍在根据反馈迭代，公开分享的目的是收集真实使用反馈。
+当前版本 **v1.9.3**，生命周期 **Observation（观察期）**。本版本统一了用户可见名称；技术标识、安装路径和 GitHub 地址保持不变，既有“个人发展定位教练”叫法仍可兼容使用。Skill 已经在真实咨询中跑通过完整流程，但规则仍在根据反馈迭代，公开分享的目的是收集真实使用反馈。
 
 本仓库就是 Skill 本体：根目录的 `SKILL.md` 是入口，`references/` 按需读取。它不依赖脚本、API、密钥或某个平台专有能力，可以直接安装到 Codex、Claude Code、OpenClaw、WorkBuddy、Hermes、ChatGPT 等支持 Agent Skills 约定的运行环境。
 
@@ -43,7 +43,7 @@
 这是一个标准的 Agent Skills 目录，不需要额外封装或格式转换。把整个仓库克隆下来，放进目标 Agent 的 Skill 目录即可。
 
 ```bash
-git clone https://github.com/<账号>/aren-personal-development-positioning.git
+git clone https://github.com/renhuanyi/aren-personal-development-positioning.git
 ```
 
 常见运行环境的放置位置：
@@ -65,7 +65,7 @@ git clone https://github.com/<账号>/aren-personal-development-positioning.git
 
 用语音转文字，想到什么说什么，不需要提前整理，也不用修改口语重复和错别字。例如：
 
-> 请用阿任个人发展定位教练陪我梳理。我现在有几个事情搅在一起，说不清楚，你先帮我聚焦一个问题，其他的一会儿再说。
+> 请用阿任个人发展梳理教练陪我梳理。我现在有几个事情搅在一起，说不清楚，你先帮我聚焦一个问题，其他的一会儿再说。
 
 如果已经有明确目标，可以直接说：
 
